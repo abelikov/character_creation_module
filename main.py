@@ -3,7 +3,7 @@ from random import randint
 
 def attack(char_name: str, char_class: str) -> str:
     """Описание работы функции attack.
-    Возвращает строку, в который указано
+    Возвращает строку, в которой указано
     сколько урона было нанесено противнику.
     """
     if char_class == 'warrior':
@@ -20,7 +20,7 @@ def attack(char_name: str, char_class: str) -> str:
 
 def defence(char_name: str, char_class: str) -> str:
     """Описание работы функции defence.
-    Возвращает строку, в который указано
+    Возвращает строку, в которой указано
     сколько урона удалось блокировать.
     """
     if char_class == 'warrior':
@@ -37,7 +37,7 @@ def defence(char_name: str, char_class: str) -> str:
 
 def special(char_name: str, char_class: str) -> str:
     """Описание работы функции special.
-    Возвращает строку, в который указано
+    Возвращает строку, в которой указано
     какое умение было применено.
     """
     if char_class == 'warrior':
@@ -54,7 +54,7 @@ def special(char_name: str, char_class: str) -> str:
 
 def start_training(char_name: str, char_class: str) -> str:
     """Описание работы функции start_training.
-    Функция, описивающая тренировку персонажа.
+    Функция, описывающая тренировку персонажа.
     """
     if char_class == 'warrior':
         print(f'{char_name}, ты Воитель — отличный боец ближнего боя.')
